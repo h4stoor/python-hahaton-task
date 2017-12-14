@@ -2,6 +2,7 @@
 Task from Venture Games Hahaton 2017.
 
 #### Setup
+```
 mkdir <project_dir> && cd <project_dir>
 virtualenv -p python3 .
 source bin/activate
@@ -12,7 +13,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 python manage.py test
-
+```
 
 
 # HAHATON API SERVER
